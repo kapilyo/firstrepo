@@ -1,0 +1,84 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.logo{
+	height: 40px;
+	margin: 5px 0px;
+}
+.main-info{
+	color: #428bca;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 35px;
+	text-align: left;
+}
+
+
+.body-block{
+    height: 130px;
+    left: 50%;
+    margin: -65px auto 0 -40px;
+    position: absolute;
+    top: 50%;
+    width: 80px;
+}
+
+
+.logo-img{
+	background-image: url("../images/logo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.logo-img-sm{
+	background-image: url("../images/logo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+}
+
+hr{
+	border-top: 1px solid #cccccc !important;
+	margin: 5px 0px;
+}
+
+.fixed-bg{
+	background-image: url("../images/disneyland3.jpg");
+	background-size:cover;
+	background-position: top center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -100;
+}
+
+.container-bg{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity:0.8;
+	background-color: #fff;
+	z-index: -99;
+}
+
+.btn-row{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+label{
+	color: #1587a7 !important;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.page-info{
+	font-weight: 600;
+	margin-top: 15px;
+}
