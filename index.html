@@ -3,18 +3,47 @@
 <head>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/jquery-1.11.1.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-	<div class="body-block">
-		<div class="logo-img"></div>
-		<div style="text-align: center;">
-			<a class="btn btn-info btn-sm" href="teaminfo.html">Play</a>		
+	<div class="home-block">
+		<div class="main-slide">
+			<div class="love-text">
+				<h4>
+					MY<br /> LOVE<br /> STORY
+				</h4>
+			</div>
 		</div>
-		
+		<div class="home-bottom">
+			<a class="btn btn-danger btn-sm btn-love" href="#">Love</a>
+		</div>
 	</div>
+	<div class="love-fly">
+	</div>
+
+
+
+	<script type="text/javascript">
+		$(function() {
+			$('.btn-love').click(function() {
+				$('.love-fly').animate({
+				    right:'-50%',
+				    opacity:'0.5'
+				},"slow",
+				function() {
+					console.log( "done!" );
+					$('.main-slide').slideToggle("slow");
+					setTimeout(function() {
+					  location.href = 'slides.html';
+					}, 800);
+				}
+			);
+		});
+		});
+	</script>
+
 </body>
 </html>
