@@ -1,0 +1,68 @@
+.land-me{
+	height: 100vh;
+    padding: 0px;
+    background: #11121d;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+
+.logo-block{
+	width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.left-yellow{
+	width: 12px;
+    height: 100%;
+    background: #FF9800;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.top-red{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 20px;
+    border-color: #673AB7 transparent transparent rgb(245, 48, 34);
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+
+.bottom-green{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0px 0px 20px;
+    border-color: transparent transparent transparent #4CAF50;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+
+.right-blue{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 25px 0px;
+    border-color: transparent #2196F3 transparent transparent;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.logo-text{
+	 color: #fff;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+    width: 60px;
+}
+
